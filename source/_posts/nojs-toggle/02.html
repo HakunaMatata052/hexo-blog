@@ -1,0 +1,43 @@
+
+<html>
+
+<head>
+	<style>
+		#toggle {
+				display:none;
+			}
+			#toggle~.open {
+				display:block;
+			}
+			#toggle~.close {
+				display:none;
+			}
+
+#toggle:checked~.open {
+				display:none;
+			}
+
+#toggle:checked~.close {
+				display:block;
+			}
+		</style>
+</head>
+
+<body>
+	<div class="dome">
+		<input type="checkbox" id="toggle">
+		<div class="open">
+			<label for="toggle">
+				打开以后你看到的
+			</label>
+
+		</div>
+		<div class="close">
+			<label for="toggle">
+				关闭以后你看到的
+			</label>
+		</div>
+	</div>
+</body>
+
+</html>
