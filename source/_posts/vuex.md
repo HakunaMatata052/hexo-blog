@@ -1,7 +1,9 @@
 ---
 title: Vuex的使用
 date: 2018-12-19 16:25:36
-tags: [vue,vuex]
+tags: 
+	- vue
+	- vuex
 categories: ["JS","VUE"]
 ---
 

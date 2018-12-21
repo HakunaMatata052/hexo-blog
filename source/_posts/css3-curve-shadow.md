@@ -8,7 +8,7 @@ categories: "CSS"
 ### 模仿纸张曲线投影
 
 # 效果展示
-![效果图](http://image.zhangxinxu.com/image/blog/201012/2010-12-12_215403.png)
+![效果图](https://image.zhangxinxu.com/image/blog/201012/2010-12-12_215403.png)
 <!-- more -->
 
 

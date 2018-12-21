@@ -1,7 +1,7 @@
 ---
 title: 统计数组中相同值的个数
 date: 2018-12-19 16:24:18
-tags: [js,数组，Array]
+tags: [js,数组,Array]
 categories: "JS"
 ---
 ### 统计数组中相同值的个数

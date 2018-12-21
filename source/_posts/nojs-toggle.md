@@ -1,7 +1,9 @@
 ---
 title: 无JS实现在线客服的切换效果
 date: 2018-12-20 15:05:17
-tags: [css,css3]
+tags:
+    - css
+    - css3
 categories: css
 ---
 
@@ -10,6 +12,9 @@ categories: css
 
 这里利用HTML的 【checkbox】类型的【input】和【label】元素的【for】属性
 和CSS的【:checked】选择器以及【~】选择器
+
+主要的原理是点击【label】使【label】的【for】属性指定id【input】改变选中状态（【:checked】），
+【input】选中状态改变后，使用css改变【input】后面的元素的显示或隐藏（或定位）。
 
 <!-- more -->
 
@@ -90,4 +95,4 @@ p~ul{
 
 > 效果：
 
-<iframe src="{% asset_path 02.html %}" width="600" height="300" frameborder="no" border="0" marginwidth="0" marginheight="0" allowtransparency="yes"></iframe>
+<iframe src="{% asset_path 02.html %}" width="600" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0" allowtransparency="yes"></iframe>

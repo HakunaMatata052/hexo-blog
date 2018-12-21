@@ -1,43 +1,79 @@
-
 <html>
 
 <head>
 	<style>
+		.dome {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #f00;
+	position: relative;
+}
 		#toggle {
 				display:none;
 			}
 			#toggle~.open {
-				display:block;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				background-color:chocolate;
+				text-align: center;
+				position:absolute;
+				bottom: 0;
+				right: 0;
+				z-index: 9;
+transition:.5s;
+
 			}
 			#toggle~.close {
-				display:none;
+				width: 150px;
+				height: 200px;
+				line-height: 30px;
+				background-color:darkolivegreen;
+				text-align: center;
+				position:absolute;
+				bottom: 0;
+				right: -150px;
+				color: #fff;
+transition:.5s;
 			}
 
 #toggle:checked~.open {
-				display:none;
+right: -30px;
 			}
 
 #toggle:checked~.close {
-				display:block;
+right: 0;
 			}
 		</style>
 </head>
 
 <body>
-	<div class="dome">
+	<div class="dome" id="dome">
 		<input type="checkbox" id="toggle">
 		<div class="open">
 			<label for="toggle">
-				打开以后你看到的
+				O
 			</label>
-
 		</div>
 		<div class="close">
 			<label for="toggle">
-				关闭以后你看到的
+				X
 			</label>
+			关闭以后你看到的
 		</div>
 	</div>
+	<button onclick="hide()">溢出隐藏</button>
+	<button onclick="show()">溢出显示</button>
+	<script>
+		function hide() {
+			document.getElementById('dome').style.overflow = "hidden";
+		}
+
+		function show() {
+			document.getElementById('dome').style.overflow = "visible";
+		}
+
+	</script>
 </body>
 
 </html>

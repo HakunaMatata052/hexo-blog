@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hakunamatata的blog
-subtitle: 前端技术
+title: Dobby
+subtitle: Dobby is a free elf!
 description: 一个前端小神的Blog
 keywords: 网站建设,前端技术,HTML,CSS,JS
 author: Hakunamatata
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hakunamatata052.github.io
+url: https://dobby.me/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

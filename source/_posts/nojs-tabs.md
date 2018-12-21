@@ -1,7 +1,10 @@
 ---
 title: 无js实现选项卡效果
 date: 2018-12-19 14:52:35
-tags: [选项卡,无js]
+tags: 
+    - tab
+    - 选项卡
+    - 无js
 categories: "HTML"
 ---
 
