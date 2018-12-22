@@ -4,7 +4,7 @@ date: 2018-12-20 15:05:17
 tags:
     - css
     - css3
-categories: css
+categories: CSS
 ---
 
 首先可以看下效果
