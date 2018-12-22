@@ -12,7 +12,7 @@ categories: "HTML"
 
 ## 方法一
 # 效果展示
-[点击查看效果](/dome1/)
+<iframe src="/dome1/" width="600" height="300" frameborder="no" border="0" marginwidth="0" marginheight="0" allowtransparency="yes"></iframe>
 
 # 实现原理
 利用锚链接和滚动条实现

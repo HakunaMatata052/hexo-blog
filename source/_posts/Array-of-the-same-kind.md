@@ -6,7 +6,7 @@ categories: "JS"
 ---
 ### 统计数组中相同值的个数
 
-```javasrcipt
+```javascript
 function arrCheck(arr){
   var newArr = [];
   for(var i=0;i<arr.length;i++){
