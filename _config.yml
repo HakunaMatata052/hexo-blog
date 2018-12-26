@@ -145,8 +145,9 @@ menu:
   categories: /categories/ || th
   tags: /tags/ || tags
   archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
-  sitemap: /sitemap.xml || sitemap
+  #schedule: /schedule/ || calendar  
+  sitemap: /sitemap.xml || sitemap  
+  comments: /comments/ || comments
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
@@ -159,10 +160,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -179,7 +180,7 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/HakunaMatata052 || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  E-Mail: mailto:admin@dobby.me || envelope
   Weibo: https://weibo.com/534104568/ || weibo
   Gitee: https://gitee.com/Twinkleee/ || bell
   #Google: https://plus.google.com/yourname || google
@@ -261,7 +262,7 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
@@ -275,7 +276,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -307,7 +308,7 @@ post_meta:
 symbols_count_time:
   separated_meta: true
   item_text_post: true
-  item_text_total: false
+  item_text_total: true
   awl: 4
   wpm: 275
 
@@ -317,9 +318,9 @@ codeblock:
   border_radius:
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result
-    show_result: false
+    show_result: true
 
 # Wechat Subscriber
 # wechat_subscriber:
@@ -340,9 +341,9 @@ reward:
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
-  enable: false
-  title: # custom header, leave empty to use the default one
-  display_in_home: false
+  enable: true
+  title: 相关文章 # custom header, leave empty to use the default one
+  display_in_home: true
   params:
     maxCount: 5
     #PPMixingRate: 0.0
@@ -353,9 +354,9 @@ related_posts:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source.
-  #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit.
+  enable: true
+  # url: https://github.com/HakunaMatata052/hexo-blog/tree/master/source/ # Link for view source.
+  url: https://github.com/HakunaMatata052/hexo-blog/edit/master/source/ # Link for fork & edit.
 
 
 # ---------------------------------------------------------------
@@ -451,7 +452,7 @@ font:
 
 # Math Equations Render Support
 math:
-  enable: false
+  enable: true
 
   # Default(true) will load mathjax/katex script on demand
   # That is it only render those page who has 'mathjax: true' in Front Matter.
@@ -506,7 +507,7 @@ han: false
 pangu: false
 
 # Swiftype Search API Key
-swiftype_key: esjHU1sYxLyLyi3wWqKr
+swiftype_key: 
 
 # Baidu Analytics ID
 #baidu_analytics:
@@ -693,7 +694,7 @@ leancloud_visitors:
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
 # visit https://firebase.google.com/docs/firestore/ to get more information about firestore
 firestore:
-  enable: false
+  enable: true
   collection: articles #required, a string collection name to access firestore database
   apiKey: #required
   projectId: #required
@@ -756,7 +757,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -808,7 +809,7 @@ tabs:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: false
+  enable: true
   color: "#37c6c0"
   height: 2px
 
@@ -933,15 +934,15 @@ vendors:
   # See: https://github.com/ftlabs/fastclick
   # Example:
   # fastclick: //cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js
-  # fastclick: //cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js
-  fastclick:
+  fastclick: //cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js
+  # fastclick:
 
   # Internal version: 1.9.7
   # See: https://github.com/tuupola/jquery_lazyload
   # Example:
   # lazyload: //cdn.jsdelivr.net/npm/jquery_lazyload@1.9.7/jquery.lazyload.min.js
-  # lazyload: //cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.min.js
-  lazyload:
+  lazyload: //cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.min.js
+  # lazyload:
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
@@ -968,16 +969,16 @@ vendors:
   # See: http://fontawesome.io
   # Example:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css
-  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
-  fontawesome:
+  fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
+  # fontawesome:
 
   # Internal version: 2.4.1
   # See: https://www.algolia.com
   # Example:
-  # algolia_instant_js: //cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.js
-  # algolia_instant_css: //cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.css
-  algolia_instant_js:
-  algolia_instant_css:
+  algolia_instant_js: //cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.js
+  algolia_instant_css: //cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.css
+  # algolia_instant_js:
+  # algolia_instant_css:
 
   # Internal version: 1.0.2
   # See: https://github.com/HubSpot/pace
