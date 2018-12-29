@@ -62,6 +62,10 @@
                 {% include '../_partials/post-edit.swig' %}
               {% endif %}
             {% endif %}
+            {% if post.top %}
+            <span style="color:#f00;border:1px solid #f00;padding:2px 5px;font-size:12px;">置顶</span>
+          {% endif %}
+            
           </{% if theme.seo %}h2{% else %}h1{% endif %}>
         {% endif %}
 
