@@ -1,8 +1,10 @@
 ---
 title: 利用iconfont.cn快速制作前端图标
 date: 2018-12-22 10:28:36
-tags:
-categories:
+tags: 
+    - inconfont
+    - 图标
+categories: HTML
 ---
 
 > 以前不会用iconfont.cn的时候，只知道这是个图标库，可以吧图片下载下来，然后制作成图片，在写入HTML。

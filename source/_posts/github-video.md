@@ -2,7 +2,7 @@
 title: 利用Github上传并引用video资源
 date: 2018-12-21 15:56:58
 tags: github
-categories:
+categories: HTML
 ---
 
 > 很多网站都有背景视频的元素，利用的是【HTML5】的新特性————【video】标签
