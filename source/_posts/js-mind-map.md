@@ -37,3 +37,5 @@ categories: JS
 
 ## javascript流程控制
 {% asset_img 10.gif %}
+
+> 本文转自[咸鱼老弟https://www.cnblogs.com/xianyulaodi/p/5886128.html](https://www.cnblogs.com/xianyulaodi/p/5886128.html)
