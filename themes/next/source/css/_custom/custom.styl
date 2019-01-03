@@ -1,0 +1,89 @@
+// Custom styles.
+body {
+  background: url(/images/bg.jpg) no-repeat;
+  /* 背景图垂直、水平均居中 */
+  background-position: center center;
+  /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+  background-attachment: fixed;
+  /* 让背景图基于容器大小伸缩 */
+  background-size: cover;
+  /* 设置背景颜色，背景图加载过程中会显示背景色 */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.post-body {
+  text-align: justify;
+}
+
+
+#sidebar {
+  background: url(/images/sidebar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  p,
+  span,
+  a {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.content {
+  border-radius: 20px;
+  padding: 30px 60px 30px 60px;
+  background: rgba(255, 255, 255, 0.8) none repeat scroll !important;
+}
+
+.menu {
+  border-radius: 20px;
+  padding: 10px 0;
+  background: rgba(255, 255, 255, 0.8) none repeat scroll !important;
+}
+
+.menu .menu-item a {
+  font-size: 16px;
+}
+
+.site-subtitle {
+  color: #fff;
+}
+
+.tag-cloud a {
+  color: #333 !important;
+}
+
+#comments {
+  margin: 60px 0 0;
+  border-radius: 20px;
+  padding: 30px 60px 30px 60px;
+  background: rgba(255, 255, 255, 0.8) none repeat scroll !important;
+}
+
+.site-title {
+  font-size: 56px;
+  line-height: 80px;
+
+}
+
+@media (max-width: 767px) {
+  .content {
+    padding:15px;
+  }
+  .posts-expand {
+    margin: 0;
+  }
+}
+
+table {
+  background:#f5f5f5;
+}
+#sidebar p, #sidebar span, #sidebar a {
+  color: #333
+}
+.sidebar-nav li {
+  color:#333;
+}
+.posts-expand .post-title {
+  line-height:1
+}
