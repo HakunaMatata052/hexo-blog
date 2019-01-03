@@ -10,14 +10,14 @@ categories: HTML
 <!--more-->
 # 使用方法
 CSS引入
-```CSS
+```html
  <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 ```
 链接的具体构成就是：
 fonts.googleapis.com/css?family=**字体名称**:**加粗程度**,**加粗程度+是否斜体**&subset=latin,latin-ext
 其中如果需要多种字体用  **|**  隔开，如果有多种加粗程度
 最后在需要使用的元素上加入font-family属性即可
-```html
+```css
 body {
     font-family: 'Monda', 'PT Mono' , serif;
     font-size: 48px;
