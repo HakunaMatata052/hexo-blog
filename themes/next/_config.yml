@@ -180,7 +180,7 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/HakunaMatata052 || github
-  E-Mail: mailto:admin@dobby.me || envelope
+  E-Mail: mailto:365189883@qq.me || envelope
   Weibo: https://weibo.com/534104568/ || weibo
   Gitee: https://gitee.com/Twinkleee/ || bell
   #Google: https://plus.google.com/yourname || google
@@ -210,8 +210,6 @@ links_layout: block
 # links_layout: inline
 links:
   LanternD's Castle: https://dlyang.me
-  Meekdai: http://meekdai.com/
-  卜卜口: http://mouto.org/
   
 # Sidebar Avatar
 avatar:
@@ -549,21 +547,21 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC80MTc2Ny8xODMxMw==
+livere_uid: #MTAyMC80MTc2Ny8xODMxMw==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction
 gitment:
-  enable: false
+  enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
-  cleanly: false # Hide 'Powered by ...' on footer, and more
+  cleanly: true # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github Username
-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: HakunaMatata052 # MUST HAVE, Your Github Username
+  github_repo: gitment # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: 0346ecafa56bbdb78e10 # MUST HAVE, Github client id for the Gitment
+  client_secret: 484b2b362d9293cc88265b1dc7ba64db2571030e # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
