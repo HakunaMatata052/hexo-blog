@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="img" id="img"><img src="https://picsum.photos/300/300">
+        <div class="shadow" id="shadow"></div>
+    </div>
+
+    <button id="show">显示多余内容</button>
+    <button id="hide">隐藏多余内容</button>
+    <style>
+        .img {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        .shadow {
+            width: 200px;
+            height: 200px;
+            box-shadow: 0px 0px 0px 120px #fff;
+            transform: rotate(45deg);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -100px;
+            margin-top: -100px;
+            border-radius: 10px;
+        }
+
+        .img img {}
+
+    </style>
+    <script>
+        document.getElementById('show').onclick = function () {
+            document.getElementById('img').style.overflow = 'visible';
+            document.getElementById('shadow').style.boxShadow = '0px 0px 0px 120px #333'
+        }
+        document.getElementById('hide').onclick = function () {
+            document.getElementById('img').style.overflow = 'hidden';
+            document.getElementById('shadow').style.boxShadow = '0px 0px 0px 120px #fff'
+        }
+
+    </script>
+</body>
+
+</html>
