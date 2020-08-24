@@ -416,7 +416,7 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Monda
+    family: Fira Code
     size: 16px
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).

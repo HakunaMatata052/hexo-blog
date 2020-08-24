@@ -79,7 +79,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://gitee.com/Twinkleee/twinkleee.gitee.io.git
+  repository: https://gitee.com/Twinkleee/twinkleee.git
+  # repository: https://github.com/HakunaMatata052/HakunaMatata052.github.io.git  
   branch: master
 
 Plugins:
@@ -140,7 +141,7 @@ live2d:
     vOffset: -20
   mobile:
     show: true # 是否在移动设备上显示
-    scale: 0.5 # 移动设备上的缩放       
+    scale: 1 # 移动设备上的缩放       
   react:
     opacityDefault: 0.7
     opacityOnHover: 0.8
