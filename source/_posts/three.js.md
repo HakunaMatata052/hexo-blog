@@ -2,7 +2,9 @@
 title: Three.js 入门
 date: 2020-08-24 16:21:00
 tags: three.js threejs three
-categories: 'JS'
+categories: 
+    - JS
+    - three.js
 ---
 
 ### 安装three.js

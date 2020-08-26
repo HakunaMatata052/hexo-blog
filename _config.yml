@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://dobby.me/
+url: http://hakunamatata052.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,8 +79,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://gitee.com/Twinkleee/twinkleee.git
-  # repository: https://github.com/HakunaMatata052/HakunaMatata052.github.io.git  
+  # repository: https://gitee.com/Twinkleee/twinkleee.git
+  repository: https://github.com/HakunaMatata052/HakunaMatata052.github.io.git  
   branch: master
 
 Plugins:

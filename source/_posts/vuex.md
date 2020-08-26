@@ -46,7 +46,7 @@ export default new vuex.Store({
 	}
 })
 ```
-#### 调用Vuex
+### 调用Vuex
 main.js中引入Vuex并使用
 
 ```javascript
